@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/* work */
+.main{
+    background: #cff1ff;
+    text-align: center;
+}
+.page-title{
+    font-size: 28px;
+    padding: 58px;
+}
+.container{
+    background: #ecfaff;
+    padding: 50px;
+    margin-bottom: 110px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    display: inline-block;
+}
+.form-title{
+    text-align: center;
+    font-size: 24px;
+}
+.form-group{
+    padding-top: 42px;
+    font-size: 18px;
+}
+.label{
+    font-size: 14px;
+    padding-top: 24px;
+    padding-bottom: 5px;
+    color: #464646;
+}
+span{
+    color: red;
+}
+.input-form{
+    width: 100%;
+    border: 1px solid #d9d9d9;
+    height: 32px;
+    color: #545658;
+}
+.input:focus{
+    background-color: #fff;
+    border-color: rgba(93, 130, 194, 0.4);
+    box-shadow: 0px 0px 0px 2px rgba(1, 90, 191, 0.1);
+}
+.date-container{
+    display: grid;
+    grid-template-columns: 169px 169px 169px;
+    gap: 0px;
+}
+.subscription{
+    padding-bottom: 40px;
+}
+.create-account{
+    background-color: #0382c7;
+    width: 100%;
+    height: 40px;
+    color: white;
+    border: 1px solid #d9d9d9;
+}
+.terms-text{
+    font-size: 10px;
+    padding-top: 30px;
+}
+.gender-content{
+    margin-left: 10px;
+}
+.gender-content:first-child{
+    margin-left: 0;
+}
